@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+}
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.filter {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 15%;
+    background-color: #edfaf9;
+}
+
+.filter-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.filter-container > div {
+  width: 20%;
+}
+
+.allCard {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+    justify-content: center;
+    padding: 20px;
+    size: 100%;
+    font-size: 1.1rem;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  width: calc(25% - 20px); /* 4 kart yan yana olacak şekilde hesaplama */
+  box-sizing: border-box;
+  text-align: left;
+  background-color: #f1f1f1;
+  color: #000;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.card h2 {
+  font-size: 1.4rem;
+  font-weight: 6000;
+  margin-bottom: 8px;
+}
+
+.card p {
+  margin: 8px 0;
+
+}
+
+.card a {
+  display: block;
+  margin-top: 12px;
+  color: #007bff;
+  text-decoration: none;
+}
